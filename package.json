@@ -1,0 +1,14 @@
+{
+  "name": "code-implementation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "checkPalindrome.js",
+  "scripts": {
+    "checkPalindrome": "node checkPalindrome.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^3.2.10"
+  }
+}
