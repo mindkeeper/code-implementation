@@ -11,10 +11,4 @@ const divideAndSort = (num) => {
   );
 };
 
-// console.log(divideAndSort(12302310123));
-
-
-const str = "jakarta"
-console.log(str.split("").map(e =>{
-    if(e === "a") e = "o"
-}).join(""));
+console.log(divideAndSort(12302310123));

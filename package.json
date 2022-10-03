@@ -4,7 +4,10 @@
   "description": "",
   "main": "checkPalindrome.js",
   "scripts": {
-    "checkPalindrome": "node checkPalindrome.js"
+    "checkPalindrome": "node checkPalindrome.js",
+    "changeText": "node changeText.js",
+    "fazzFood": "node fazzFood.js",
+    "divideAndSort": "node divideAndSort.js"
   },
   "author": "",
   "license": "ISC",
