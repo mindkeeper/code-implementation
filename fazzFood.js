@@ -1,14 +1,17 @@
 const fazzFood = (price, voucher, distance, tax) => {
   if (!price || typeof price !== "number") return "Input price Invalid";
   if (!(voucher === null || typeof voucher === "string"))
-    // masi bingung apakah input boleh null jika user tidak input voucher.
+    // masi bingung apakah input boleh null jika user tidak input voucher. sudah terjawab : asumsikan seperti ini
     return "Input Voucher Invalid"; //apakah default value untuk voucher adalah string kosong atau null
   if (distance <= 0 || typeof distance !== "number")
     return "Input distance invalid";
   if (typeof tax !== "boolean") return "Input tax invalid";
 
   //inisialisasi variabel
-  let discount, taxCost, shipmentCost, subtotal;
+  let discount = 0,
+    taxCost,
+    shipmentCost,
+    subtotal;
 
   //perhitungan diskon
   if (!voucher) discount = 0;
@@ -35,4 +38,4 @@ Pajak: ${taxCost}
 Subtotal: ${subtotal}`;
 };
 
-console.log(fazzFood(1, null, 5.1, false));
+console.log(fazzFood(50000, "fazzfood50", 5.1, true));
