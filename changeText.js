@@ -1,6 +1,6 @@
 const changeText = (text) => {
   if (!text || typeof text !== "string") return "Input Invalid";
-  result = "";
+  let result = "";
   for (let i = 0; i < text.length; i++) {
     if (text[i] !== "a") {
       result += text[i];

@@ -1,6 +1,5 @@
 const divideAndSort = (num) => {
-  if (typeof num !== "number") return "Input Invalid";
-  if (num === 0) return "";
+  if (typeof num !== "number" || num === 0) return "Input Invalid";
 
   return parseInt(
     num

@@ -8,4 +8,5 @@ const checkPalindrome = (str) => {
   return `${str} adalah kata palindrome`;
 };
 
-console.log(checkPalindrome("katk"));
+console.log(checkPalindrome("katak"));
+console.log(checkPalindrome("semut"));
